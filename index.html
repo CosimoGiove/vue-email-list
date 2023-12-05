@@ -19,7 +19,7 @@
             </div>
             <h1>Email list:</h1>
             <ul>
-                <li v-for="email in emailList" v-if="emailList.length === quantita">
+                <li v-for="email in emailList" v-show="emailList.length === quantita">
                     {{email}}
                 </li>
             </ul>
