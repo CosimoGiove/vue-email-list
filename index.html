@@ -14,13 +14,19 @@
 <body>
     <div id="app" v-cloak>
         <div class="contenitoresupremo">
+            <div class="btn">
+                <button @click="reload">aggiorna email</button>
+            </div>
             <h1>Email list:</h1>
             <ul>
                 <li v-for="email in emailList" v-if="emailList.length === quantita">
                     {{email}}
                 </li>
             </ul>
+        
         </div>
+       
+       
     </div>
 
     <!-- script vue-js -->

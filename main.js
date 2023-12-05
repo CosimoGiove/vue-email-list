@@ -19,6 +19,9 @@ createApp({
                     this.emailList.push(email.data.response)
                 });
         }
+      },
+      reload(){
+        location.reload();
       }
     }
 }).mount('#app')

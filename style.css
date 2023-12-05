@@ -31,6 +31,7 @@ li{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(124,213,155,1) 55%, rgba(0,212,255,1) 100%);
     overflow-y: scroll;
     height: calc(100vh - 30px);
+    padding-bottom: 30px;
 }
 
 h1{
@@ -41,6 +42,20 @@ h1{
 li:hover{
     background: linear-gradient(90deg, rgba(219,219,249,1) 0%, rgba(201,255,221,1) 54%, rgba(181,232,242,1) 100%);
     border-radius: 20px;
+    font-size: 20px;
+}
+
+.btn{
+ position: fixed;
+}
+button{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: red;
+    width: 200px;
+    height: 50px;
+    background-color: lightseagreen;
+    cursor: pointer;
     font-size: 20px;
 }
 
