@@ -2,8 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 [v-cloak]{
     display: none;
 }
+
+h1, ul li{
+    text-align: center;
+    margin-top: 30px;
+}
+
+li{
+   color: black;
+   border-bottom: 1px solid grey;
+   width: 50%;
+   margin: 0 auto;
+   padding: 30px;
+   cursor: pointer;
+   color: black;
+   box-shadow: 10px 10px 10px 10px lightgray;
+   border-radius: 10px;
+}
+
+.contenitoresupremo{
+    background-color: lightgreen;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(124,213,155,1) 55%, rgba(0,212,255,1) 100%);
+    overflow-y: scroll;
+    height: calc(100vh - 30px);
+}
+
+h1{
+    color: red;
+    font-size: 3rem;
+}
+
+li:hover{
+    background: linear-gradient(90deg, rgba(219,219,249,1) 0%, rgba(201,255,221,1) 54%, rgba(181,232,242,1) 100%);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
